@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter' , sans-serif ;
+}
+
+
+
+
+
+.slider{
+    width: 100%;
+    min-height: 80vh; 
+    aspect-ratio:16px / 9px;
+    background-color: black;
+    position: relative;
+
+}
+
+.slider-background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+
+}
+.slider-content{
+
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%)
+    
+}
+h1{
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 100px;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+.slider-content p{
+    color:white;
+    font-size: 1rem;
+    font-weight: 300;
+
+
+}
+.section{
+
+    padding: 100px;
+}
+
+.boxed{
+    max-width: 1280px;
+    margin-inline: auto;
+
+}
+.flex{
+    display: flex;
+}
+.dark{
+    background-color: black;
+    color: #fff;
+}
+.w40{
+    width: 40%;
+}
+
+.w60{
+    width: 60%;
+}
+.text-center{
+    text-align: center;
+}
+.w25{
+    width: 25%;
+}
+.w32{
+    width: 32%;
+}
+.space-between{
+    justify-content: space-between;
+}
+.gap20{
+    gap: 20px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.skill{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.skill img{
+    width: 1000px;
+    height: auto;
+    aspect-ratio:1/1 ;
+    object-fit: contain;
+
+
+
+    display: block;
+
+}
+.skill h3 {
+    color: black;
+    margin-top: 10px ;
+}
+.certifications{
+    height: auto;
+    aspect-ratio: 1/1;
+
+
+}
+.certifications a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.certifications img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.certifications:hover h3{
+    opacity: 1;
+}
+.icon{
+    display:block;
+    font-size: 40px !important;
+}
+.label{
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0 ;
+    font-size: 1.5rem;
+}
+.value{
+    display: block;
+    font-size: 1.2;
+}
+.contact{
+
+    border: 2px dashed #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  color: #0077b6; /* bleu LinkedIn, sobre et lisible */
+}
+
+.contact-info a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.socials {
+  margin-top: 20px;
+}
+
+.socials img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.socials img:hover {
+  transform: scale(1.2);
+}
