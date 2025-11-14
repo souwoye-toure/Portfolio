@@ -193,3 +193,28 @@ p{
     justify-content:center;
     gap:30px;
 }
+/* --- Section Certifications version visible --- */
+.certifications {
+    background: #f2f2f2; 
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid #ddd;
+    aspect-ratio: 3 / 4;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.certifications:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.20);
+}
+
+.certifications img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+}
