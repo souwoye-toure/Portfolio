@@ -189,3 +189,7 @@ p{
 .socials img:hover {
   transform: scale(1.2);
 }
+.certifications-wrapper{
+    justify-content:center;
+    gap:30px;
+}
